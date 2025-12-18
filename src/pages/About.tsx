@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-import { ChevronRight } from "lucide-react";
+import { ChevronRight, Egg, Users, Heart } from "lucide-react";
 
 const About = () => {
   return (
@@ -66,7 +66,7 @@ const About = () => {
             <div className="grid md:grid-cols-3 gap-8 max-w-4xl mx-auto">
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="font-chalk text-3xl text-primary">🥚</span>
+                  <Egg className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-xl mb-2">Fresh & Homemade</h3>
                 <p className="text-muted-foreground">
@@ -76,7 +76,7 @@ const About = () => {
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="font-chalk text-3xl text-primary">👋</span>
+                  <Users className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-xl mb-2">Community First</h3>
                 <p className="text-muted-foreground">
@@ -86,7 +86,7 @@ const About = () => {
 
               <div className="text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="font-chalk text-3xl text-primary">❤️</span>
+                  <Heart className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-xl mb-2">Made With Love</h3>
                 <p className="text-muted-foreground">
