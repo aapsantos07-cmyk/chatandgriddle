@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { MapPin, Clock, Phone, ChevronRight } from "lucide-react";
+import { MapPin, Clock, Phone, ChevronRight, Coffee, Sandwich, Home } from "lucide-react";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
@@ -88,7 +88,19 @@ const Index = () => {
                 </h2>
                 <div className="space-y-3 text-lg">
                   <div className="flex justify-between max-w-xs mx-auto md:mx-0">
-                    <span className="text-muted-foreground">Tuesday – Friday</span>
+                    <span className="text-muted-foreground">Tuesday</span>
+                    <span className="font-medium">6:00 AM – 3:00 PM</span>
+                  </div>
+                  <div className="flex justify-between max-w-xs mx-auto md:mx-0">
+                    <span className="text-muted-foreground">Wednesday</span>
+                    <span className="font-medium">6:00 AM – 3:00 PM</span>
+                  </div>
+                  <div className="flex justify-between max-w-xs mx-auto md:mx-0">
+                    <span className="text-muted-foreground">Thursday</span>
+                    <span className="font-medium">6:00 AM – 3:00 PM</span>
+                  </div>
+                  <div className="flex justify-between max-w-xs mx-auto md:mx-0">
+                    <span className="text-muted-foreground">Friday</span>
                     <span className="font-medium">6:00 AM – 3:00 PM</span>
                   </div>
                   <div className="flex justify-between max-w-xs mx-auto md:mx-0">
@@ -154,7 +166,7 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               <div className="menu-card text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="font-chalk text-2xl text-primary">☕</span>
+                  <Coffee className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-xl mb-2">All-Day Breakfast</h3>
                 <p className="text-muted-foreground">
@@ -164,7 +176,7 @@ const Index = () => {
 
               <div className="menu-card text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="font-chalk text-2xl text-primary">🥪</span>
+                  <Sandwich className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-xl mb-2">Signature Sammies</h3>
                 <p className="text-muted-foreground">
@@ -174,7 +186,7 @@ const Index = () => {
 
               <div className="menu-card text-center">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <span className="font-chalk text-2xl text-primary">🏠</span>
+                  <Home className="w-8 h-8 text-primary" />
                 </div>
                 <h3 className="font-heading font-semibold text-xl mb-2">Local & Fresh</h3>
                 <p className="text-muted-foreground">
