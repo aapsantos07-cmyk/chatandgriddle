@@ -1,6 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import { UtensilsCrossed } from "lucide-react";
 
 const Catering = () => {
   return (
@@ -28,7 +29,7 @@ const Catering = () => {
           <div className="container-rustic">
             <div className="max-w-2xl mx-auto text-center py-16">
               <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                <span className="font-chalk text-4xl text-primary">🍳</span>
+                <UtensilsCrossed className="w-10 h-10 text-primary" />
               </div>
               <h2 className="font-chalk text-3xl md:text-4xl text-primary mb-4">
                 Coming Soon

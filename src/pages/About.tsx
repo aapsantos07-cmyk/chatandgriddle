@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-import { ChevronRight, Egg, Users, Heart } from "lucide-react";
+import { ChevronRight, Egg, Users, Heart, Star } from "lucide-react";
 
 const About = () => {
   return (
@@ -103,7 +103,7 @@ const About = () => {
             <div className="max-w-xl mx-auto">
               <div className="flex items-center justify-center gap-1 mb-4">
                 {[...Array(5)].map((_, i) => (
-                  <span key={i} className="text-3xl">⭐</span>
+                  <Star key={i} className="w-8 h-8 text-yellow-500 fill-yellow-500" />
                 ))}
               </div>
               <p className="font-chalk text-4xl text-primary mb-2">4.8</p>

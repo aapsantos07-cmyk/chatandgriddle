@@ -1,7 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
-import { ExternalLink, Clock, MapPin, Phone } from "lucide-react";
+import { ExternalLink, Clock, MapPin, Phone, UtensilsCrossed } from "lucide-react";
 
 const Order = () => {
   return (
@@ -31,7 +31,7 @@ const Order = () => {
               {/* Main CTA Card */}
               <div className="bg-card border border-border rounded-xl p-8 md:p-12 text-center shadow-lg mb-12">
                 <div className="w-20 h-20 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="font-chalk text-4xl">🍳</span>
+                  <UtensilsCrossed className="w-10 h-10 text-primary" />
                 </div>
                 
                 <h2 className="font-heading font-bold text-2xl md:text-3xl mb-4">
