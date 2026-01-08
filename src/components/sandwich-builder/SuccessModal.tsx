@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/dialog';
 import { Button } from '@/components/ui/button';
 import { rusticConfetti } from '@/lib/animations';
+import { useAuth } from '@/hooks/useAdmin';
 
 interface SuccessModalProps {
   isOpen: boolean;
@@ -23,6 +24,7 @@ export const SuccessModal = ({
   onBuildAnother,
 }: SuccessModalProps) => {
   const navigate = useNavigate();
+  const { data: user } = useAuth();
 
   useEffect(() => {
     if (isOpen) {
@@ -71,12 +73,14 @@ export const SuccessModal = ({
           </p>
 
           <div className="flex flex-col gap-3 pt-4">
-            <Button
-              onClick={handleViewGallery}
-              className="btn-rustic w-full"
-            >
-              View Gallery
-            </Button>
+            {user && (
+              <Button
+                onClick={handleViewGallery}
+                className="btn-rustic w-full"
+              >
+                View Gallery
+              </Button>
+            )}
             <Button
               onClick={handleBuildAnother}
               variant="outline"
