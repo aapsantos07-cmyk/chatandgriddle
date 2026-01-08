@@ -83,15 +83,15 @@ export const IngredientSelector = ({
       )}
 
       <Tabs defaultValue={availableCategories[0]} className="w-full">
-        <TabsList className="w-full grid grid-cols-3 md:grid-cols-6 gap-2 bg-gradient-to-r from-gray-50 to-gray-100 p-3 rounded-xl shadow-inner">
+        <TabsList className="w-full inline-flex md:grid md:grid-cols-6 gap-2 bg-gradient-to-r from-gray-50 to-gray-100 p-3 rounded-xl shadow-inner overflow-x-auto flex-nowrap">
           {availableCategories.map((category) => (
             <TabsTrigger
               key={category}
               value={category}
               className="data-[state=active]:bg-primary data-[state=active]:text-white data-[state=active]:shadow-lg
                          data-[state=inactive]:bg-white data-[state=inactive]:text-gray-600
-                         transition-all duration-200 font-medium rounded-lg px-3 py-2
-                         hover:bg-primary/10 data-[state=active]:scale-105"
+                         transition-all duration-200 font-medium rounded-lg px-3 py-2 text-sm md:text-base
+                         hover:bg-primary/10 data-[state=active]:scale-105 whitespace-nowrap flex-shrink-0"
             >
               {category}
             </TabsTrigger>
