@@ -1,0 +1,15 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hotSauceGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF4500;stop-opacity:0.7" />
+      <stop offset="50%" style="stop-color:#E63900;stop-opacity:0.7" />
+      <stop offset="100%" style="stop-color:#FF4500;stop-opacity:0.7" />
+    </linearGradient>
+  </defs>
+  <!-- Spicy drizzle -->
+  <path d="M 35,28 Q 75,26 115,28 Q 155,26 195,28 Q 235,26 265,28"
+        fill="none" stroke="url(#hotSauceGrad)" stroke-width="3.5" stroke-linecap="round" opacity="0.75"/>
+  <circle cx="80" cy="28" r="1.5" fill="#FF6347" opacity="0.6"/>
+  <circle cx="160" cy="28" r="1.5" fill="#FF6347" opacity="0.6"/>
+  <circle cx="240" cy="28" r="1.5" fill="#FF6347" opacity="0.6"/>
+</svg>

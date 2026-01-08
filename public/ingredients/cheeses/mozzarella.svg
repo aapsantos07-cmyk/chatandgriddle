@@ -1,0 +1,15 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="mozzGrad">
+      <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#F5F5F5;stop-opacity:0.95" />
+    </radialGradient>
+  </defs>
+  <!-- Melted mozzarella with stretch -->
+  <ellipse cx="150" cy="28" rx="130" ry="20" fill="url(#mozzGrad)" opacity="0.95"/>
+  <path d="M 30,28 Q 70,22 110,26 Q 150,20 190,26 Q 230,22 270,28"
+        fill="none" stroke="#E8E8E8" stroke-width="2" opacity="0.6"/>
+  <!-- Cheese pull texture -->
+  <ellipse cx="100" cy="24" rx="15" ry="8" fill="#FFFFFF" opacity="0.7"/>
+  <ellipse cx="200" cy="26" rx="15" ry="8" fill="#FFFFFF" opacity="0.7"/>
+</svg>

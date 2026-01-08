@@ -1,0 +1,15 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="chipotleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#D88060;stop-opacity:0.75" />
+      <stop offset="50%" style="stop-color:#C87050;stop-opacity:0.75" />
+      <stop offset="100%" style="stop-color:#D88060;stop-opacity:0.75" />
+    </linearGradient>
+  </defs>
+  <path d="M 25,28 Q 85,23 155,27 Q 225,23 275,28 Q 215,33 145,29 Q 75,33 25,28 Z"
+        fill="url(#chipotleGrad)" opacity="0.75"/>
+  <!-- Spice flecks -->
+  <circle cx="80" cy="27" r="0.8" fill="#8B4444" opacity="0.6"/>
+  <circle cx="150" cy="28" r="0.8" fill="#8B4444" opacity="0.6"/>
+  <circle cx="220" cy="27" r="0.8" fill="#8B4444" opacity="0.6"/>
+</svg>

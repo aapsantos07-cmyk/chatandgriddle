@@ -1,20 +1,26 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Menu, X, Phone } from "lucide-react";
+import { useAuth } from "@/hooks/useAdmin";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const location = useLocation();
+  const { data: user } = useAuth();
 
-  const links = [
+  const allLinks = [
     { name: "Home", path: "/" },
     { name: "Menu", path: "/menu" },
+    { name: "Build Sandwich", path: "/sandwich-builder" },
+    { name: "Gallery", path: "/sandwich-gallery", adminOnly: true },
     { name: "Order Online", path: "/order" },
     { name: "Catering", path: "/catering" },
     { name: "Apparel", path: "/apparel" },
     { name: "About", path: "/about" },
     { name: "Contact", path: "/contact" },
   ];
+
+  const links = allLinks.filter(link => !link.adminOnly || user);
 
   const isActive = (path: string) => location.pathname === path;
 

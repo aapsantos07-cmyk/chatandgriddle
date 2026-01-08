@@ -1,0 +1,15 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pestoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6B8E23;stop-opacity:0.8" />
+      <stop offset="50%" style="stop-color:#556B2F;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#6B8E23;stop-opacity:0.8" />
+    </linearGradient>
+  </defs>
+  <path d="M 25,28 Q 85,24 155,27 Q 225,24 275,28 Q 215,32 145,29 Q 75,32 25,28 Z"
+        fill="url(#pestoGrad)" opacity="0.8"/>
+  <!-- Herb bits -->
+  <rect x="70" y="26" width="3" height="2" fill="#4A5F1A" opacity="0.7" rx="0.5"/>
+  <rect x="140" y="28" width="2.5" height="1.5" fill="#4A5F1A" opacity="0.7" rx="0.5"/>
+  <rect x="210" y="27" width="3" height="2" fill="#4A5F1A" opacity="0.7" rx="0.5"/>
+</svg>

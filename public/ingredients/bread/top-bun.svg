@@ -1,0 +1,44 @@
+<svg width="300" height="80" viewBox="0 0 300 80" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="topBunGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8BD7E;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#D4A574;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C49A6C;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="bunHighlight">
+      <stop offset="0%" style="stop-color:#F5D7A8;stop-opacity:0.6" />
+      <stop offset="100%" style="stop-color:#E8BD7E;stop-opacity:0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Shadow/bottom part -->
+  <ellipse cx="150" cy="55" rx="145" ry="18" fill="#A88560" opacity="0.4"/>
+
+  <!-- Main bun dome -->
+  <path d="M 10,55 Q 10,25 150,15 Q 290,25 290,55 L 290,58 Q 150,68 10,58 Z"
+        fill="url(#topBunGradient)" stroke="#B8946A" stroke-width="1.5"/>
+
+  <!-- Highlight on top -->
+  <ellipse cx="150" cy="30" rx="100" ry="15" fill="url(#bunHighlight)"/>
+
+  <!-- Sesame seeds - more realistic placement -->
+  <g fill="#F5E6D3">
+    <ellipse cx="60" cy="32" rx="2.5" ry="2" opacity="0.9"/>
+    <ellipse cx="70" cy="38" rx="2" ry="1.5" opacity="0.85"/>
+    <ellipse cx="90" cy="28" rx="2.5" ry="2" opacity="0.95"/>
+    <ellipse cx="105" cy="35" rx="2" ry="1.5" opacity="0.9"/>
+    <ellipse cx="120" cy="25" rx="2.5" ry="2" opacity="0.9"/>
+    <ellipse cx="135" cy="30" rx="2" ry="1.5" opacity="0.85"/>
+    <ellipse cx="150" cy="20" rx="2.5" ry="2" opacity="0.95"/>
+    <ellipse cx="165" cy="28" rx="2" ry="1.5" opacity="0.9"/>
+    <ellipse cx="180" cy="24" rx="2.5" ry="2" opacity="0.9"/>
+    <ellipse cx="195" cy="33" rx="2" ry="1.5" opacity="0.85"/>
+    <ellipse cx="210" cy="27" rx="2.5" ry="2" opacity="0.95"/>
+    <ellipse cx="230" cy="36" rx="2" ry="1.5" opacity="0.9"/>
+    <ellipse cx="240" cy="30" rx="2.5" ry="2" opacity="0.9"/>
+    <ellipse cx="75" cy="42" rx="2" ry="1.5" opacity="0.85"/>
+    <ellipse cx="140" cy="38" rx="2" ry="1.5" opacity="0.9"/>
+    <ellipse cx="185" cy="40" rx="2" ry="1.5" opacity="0.85"/>
+    <ellipse cx="220" cy="42" rx="2.5" ry="2" opacity="0.9"/>
+  </g>
+</svg>

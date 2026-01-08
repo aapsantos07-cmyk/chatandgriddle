@@ -1,0 +1,19 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="jalapenoGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#6B8E23;stop-opacity:0.85" />
+      <stop offset="100%" style="stop-color:#556B2F;stop-opacity:0.85" />
+    </linearGradient>
+  </defs>
+  <!-- Jalapeño slices -->
+  <ellipse cx="70" cy="28" rx="18" ry="14" fill="url(#jalapenoGrad)" opacity="0.85"/>
+  <ellipse cx="150" cy="32" rx="20" ry="15" fill="url(#jalapenoGrad)" opacity="0.85"/>
+  <ellipse cx="230" cy="28" rx="18" ry="14" fill="url(#jalapenoGrad)" opacity="0.85"/>
+  <!-- Seeds -->
+  <circle cx="68" cy="27" r="1.5" fill="#F5F5DC" opacity="0.8"/>
+  <circle cx="72" cy="29" r="1.5" fill="#F5F5DC" opacity="0.8"/>
+  <circle cx="148" cy="31" r="1.5" fill="#F5F5DC" opacity="0.8"/>
+  <circle cx="152" cy="33" r="1.5" fill="#F5F5DC" opacity="0.8"/>
+  <circle cx="228" cy="27" r="1.5" fill="#F5F5DC" opacity="0.8"/>
+  <circle cx="232" cy="29" r="1.5" fill="#F5F5DC" opacity="0.8"/>
+</svg>

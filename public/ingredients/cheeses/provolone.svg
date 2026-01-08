@@ -1,0 +1,10 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="provoloneGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF8DC;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#F5E6CA;stop-opacity:0.95" />
+    </linearGradient>
+  </defs>
+  <rect x="20" y="15" width="260" height="30" fill="url(#provoloneGrad)" rx="4" opacity="0.95"/>
+  <ellipse cx="150" cy="23" rx="90" ry="6" fill="#FFFAED" opacity="0.6"/>
+</svg>

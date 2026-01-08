@@ -4,6 +4,7 @@ interface SEOProps {
   title?: string;
   description?: string;
   canonical?: string;
+  keywords?: string;
 }
 
 const localBusinessSchema = {
@@ -59,17 +60,19 @@ const localBusinessSchema = {
   }
 };
 
-const SEO = ({ 
+const SEO = ({
   title = "Chat & Griddle | Brunch & Breakfast in Kenilworth, NJ",
   description = "Chat & Griddle serves fresh, homemade breakfast and brunch in Kenilworth, NJ. All-day breakfast, signature sandwiches, and classic diner favorites. Order online for pickup!",
-  canonical = "https://chatandgriddle.com"
+  canonical = "https://chatandgriddle.com",
+  keywords
 }: SEOProps) => {
   const fullTitle = title.includes("Chat & Griddle") ? title : `${title} | Chat & Griddle`;
-  
+
   return (
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      {keywords && <meta name="keywords" content={keywords} />}
       <link rel="canonical" href={canonical} />
       
       {/* Open Graph */}

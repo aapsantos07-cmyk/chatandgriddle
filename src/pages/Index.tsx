@@ -3,6 +3,7 @@ import { MapPin, Clock, Phone, ChevronRight, Coffee, Sandwich, Home } from "luci
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import SEO from "@/components/SEO";
+import { MonthlyWinnerSection } from "@/components/home/MonthlyWinnerSection";
 import heroImage from "@/assets/hero-brunch.jpg";
 
 const Index = () => {
@@ -152,6 +153,9 @@ const Index = () => {
             </div>
           </div>
         </section>
+
+        {/* Monthly Winner Section */}
+        <MonthlyWinnerSection />
 
         {/* Featured Section */}
         <section className="section-padding">

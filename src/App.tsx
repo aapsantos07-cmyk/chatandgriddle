@@ -11,6 +11,9 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Catering from "./pages/Catering";
 import Apparel from "./pages/Apparel";
+import SandwichBuilder from "./pages/SandwichBuilder";
+import SandwichGallery from "./pages/SandwichGallery";
+import AdminDashboard from "./pages/AdminDashboard";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -30,6 +33,9 @@ const App = () => (
             <Route path="/apparel" element={<Apparel />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/sandwich-builder" element={<SandwichBuilder />} />
+            <Route path="/sandwich-gallery" element={<SandwichGallery />} />
+            <Route path="/admin/dashboard" element={<AdminDashboard />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

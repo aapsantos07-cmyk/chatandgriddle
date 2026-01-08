@@ -1,0 +1,12 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="brieGrad">
+      <stop offset="0%" style="stop-color:#FFFAF0;stop-opacity:0.95" />
+      <stop offset="100%" style="stop-color:#F5F5DC;stop-opacity:0.95" />
+    </radialGradient>
+  </defs>
+  <rect x="20" y="15" width="260" height="30" fill="url(#brieGrad)" rx="5" opacity="0.95"/>
+  <!-- Rind -->
+  <rect x="20" y="15" width="260" height="3" fill="#E8E0D0" rx="2" opacity="0.8"/>
+  <rect x="20" y="42" width="260" height="3" fill="#E8E0D0" rx="2" opacity="0.8"/>
+</svg>

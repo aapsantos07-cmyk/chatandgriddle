@@ -1,0 +1,13 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="hamGrad">
+      <stop offset="0%" style="stop-color:#E8A8A8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D88888;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  <ellipse cx="150" cy="28" rx="135" ry="22" fill="url(#hamGrad)" stroke="#C87878" stroke-width="1.5"/>
+  <!-- Ham texture -->
+  <circle cx="70" cy="26" r="1.5" fill="#C87878" opacity="0.4"/>
+  <circle cx="150" cy="30" r="2" fill="#C87878" opacity="0.4"/>
+  <circle cx="230" cy="26" r="1.5" fill="#C87878" opacity="0.4"/>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="avocadoGrad">
+      <stop offset="0%" style="stop-color:#A8D96E;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#8FBC5A;stop-opacity:0.9" />
+    </radialGradient>
+  </defs>
+  <!-- Avocado spread -->
+  <ellipse cx="150" cy="30" rx="130" ry="20" fill="url(#avocadoGrad)" opacity="0.9"/>
+  <!-- Texture -->
+  <path d="M 40,28 Q 90,25 140,28 Q 190,25 260,28" stroke="#7AA548" stroke-width="1" fill="none" opacity="0.4"/>
+  <circle cx="80" cy="32" r="2" fill="#7AA548" opacity="0.5"/>
+  <circle cx="150" cy="26" r="2.5" fill="#7AA548" opacity="0.5"/>
+  <circle cx="220" cy="33" r="2" fill="#7AA548" opacity="0.5"/>
+</svg>
